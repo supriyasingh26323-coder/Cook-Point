@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Menu - Cook Point</title>
+  <link rel="stylesheet" href="css/style.css"/>
+</head>
+<body>
+
+  <nav class="navbar">
+    <a href="index.html" class="logo">Cook <span>Point</span></a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="menu.html" class="active">Menu</a></li>
+      <li><a href="login.html">Login</a></li>
+      <li><a href="register.html">Register</a></li>
+    </ul>
+    <a href="cart.html" class="cart-icon">🛒 <span class="cart-count">0</span></a>
+  </nav>
+
+  <section class="section">
+    <h2 class="section-title">Our <span>Menu</span></h2>
+    <p class="section-sub">Choose from our wide variety of fresh and delicious dishes</p>
+    <div class="category-tabs" id="categoryTabs">
+      <button class="tab-btn active" data-cat="All">🍽️ All</button>
+    </div>
+    <div class="menu-grid" id="menuGrid"></div>
+  </section>
+
+  <footer>
+    <p>© 2025 <span>Cook Point</span>. All rights reserved.</p>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
